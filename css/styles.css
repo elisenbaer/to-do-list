@@ -30,7 +30,7 @@ input{
     margin-top:10px;
     display: inline-block;
     text-align: center;
-    background-color: #791740;
+    background-color: blue;
     color: #f0f8ff;
     border-radius: 5px;
     border: none;
@@ -66,7 +66,7 @@ li > button {
     background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: red;
 	font-weight: 800;
     cursor: pointer;
 }
