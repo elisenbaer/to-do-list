@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="container">
+		<h1>To Do List App</h1>
+		<h2>
+            Double click to mark an item off, click on "X" to delete an item, and drag items to reorder. 
+        </h2>
+       
+		<form name="toDoList">
+			<input type="text" name="ListItem" id="input"/>
+		</form>
+    
+		<div onclick="newItem()" id="button">Add</div>
+		<br/>
+		<ol id="list"></ol>
+  </div>
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
